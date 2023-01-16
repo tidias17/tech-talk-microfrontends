@@ -1,0 +1,42 @@
+<single-spa-router>
+  <!--
+
+    This is the single-spa Layout Definition for your microfrontends.
+    See https://single-spa.js.org/docs/layout-definition/ for more information.
+
+  -->
+
+  <!-- Example layouts you might find helpful:
+
+  <nav>
+    <application name="@org/navbar"></application>
+  </nav>
+  <route path="settings">
+    <application name="@org/settings"></application>
+  </route>
+
+  -->
+
+  <route default>
+    <section class="main-container">
+      <application name="@elo/header"></application>
+      <main>
+        <route exact path="/">
+          <application name="@elo/dashboard"></application>
+        </route>
+        <route path="/onboarding">
+          <application name="@elo/onboarding"></application>
+        </route>
+        <route path="/products">
+          <application name="@elo/products"></application>
+        </route>
+        <route path="/order">
+          <application name="@elo/order"></application>
+        </route>
+        <route path="/wallet">
+          <application name="@elo/wallet"></application>
+        </route>
+      </main>
+    </section>
+  </route>
+</single-spa-router>
