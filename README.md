@@ -2,7 +2,7 @@
 
 Projeto para apresentação de tech talk Elo7 16/01/2023 estruturado com single-spa e svelte!
 
-## para subbir localmente cada um dos projetos, utilizar a colinha abaixo:
+### para subir localmente cada um dos projetos, utilizar a colinha abaixo:
 Deverá rodar o comando `npm i` em cada um dos diretórios presentes neste monorepo.
 diretório elo-root-config: npm start;
 diretório elo-utility: npm start
